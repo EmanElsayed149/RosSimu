@@ -426,7 +426,7 @@
   </link>
   <joint
     name="F_W_Front_Left_Joint"
-    type="fixed">
+    type="continuous">
     <origin
       xyz="0 0 0"
       rpy="0 0 0" />
@@ -479,7 +479,7 @@
   </link>
   <joint
     name="F_W_Front_Right_Joint"
-    type="fixed">
+    type="continuous">
     <origin
       xyz="0 0 0"
       rpy="0 0 0" />
@@ -532,7 +532,7 @@
   </link>
   <joint
     name="F_W_Back_Left_Joint"
-    type="fixed">
+    type="continuous">
     <origin
       xyz="0 0 0"
       rpy="0 0 0" />
@@ -585,7 +585,7 @@
   </link>
   <joint
     name="F_W_Back_Right_Joint"
-    type="fixed">
+    type="continuous">
     <origin
       xyz="0 0 0"
       rpy="0 0 0" />
