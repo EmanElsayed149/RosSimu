@@ -153,17 +153,14 @@
     name="Right_Wheel_Joint"
     type="continuous">
     <origin
-      xyz="-0.0087223 -0.224 0.054"
+      xyz="-0.0087223 -0.224 0.0538"
       rpy="0 0 0" />
     <parent
       link="base_link" />
     <child
       link="Right_Wheel" />
     <axis
-      xyz="0 -1 0" />
-    <limit
-      effort="40"
-      velocity="10" />
+      xyz="0 1 0" />
   </joint>
   <link
     name="Left_Wheel">
@@ -209,17 +206,14 @@
     name="Left_Wheel_Joint"
     type="continuous">
     <origin
-      xyz="-0.0087223 0.224 0.054"
+      xyz="-0.0087223 0.224 0.0538"
       rpy="0 0 0" />
     <parent
       link="base_link" />
     <child
       link="Left_Wheel" />
     <axis
-      xyz="0 -1 0" />
-    <limit
-      effort="40"
-      velocity="10" />
+      xyz="0 1 0" />
   </joint>
   <link
     name="Camera">
