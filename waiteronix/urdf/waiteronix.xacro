@@ -160,7 +160,10 @@
     <child
       link="Right_Wheel" />
     <axis
-      xyz="0 1 0" />
+      xyz="0 -1 0" />
+    <limit
+      effort="40"
+      velocity="10" />
   </joint>
   <link
     name="Left_Wheel">
@@ -213,7 +216,10 @@
     <child
       link="Left_Wheel" />
     <axis
-      xyz="0 1 0" />
+      xyz="0 -1 0" />
+    <limit
+      effort="40"
+      velocity="10" />
   </joint>
   <link
     name="Camera">
@@ -388,7 +394,7 @@
     name="F_W_Front_Left">
     <inertial>
       <origin
-        xyz="0.13868 0.123 -1.4438E-14"
+        xyz="0.13868 0.123 0.03"
         rpy="0 0 0" />
       <mass
         value="0.059636" />
@@ -426,7 +432,7 @@
   </link>
   <joint
     name="F_W_Front_Left_Joint"
-    type="continuous">
+    type="fixed">
     <origin
       xyz="0 0 0"
       rpy="0 0 0" />
@@ -441,7 +447,7 @@
     name="F_W_Front_Right">
     <inertial>
       <origin
-        xyz="0.13868 -0.123 2.4819E-14"
+        xyz="0.13868 -0.123 0.03"
         rpy="0 0 0" />
       <mass
         value="0.059636" />
@@ -479,7 +485,7 @@
   </link>
   <joint
     name="F_W_Front_Right_Joint"
-    type="continuous">
+    type="fixed">
     <origin
       xyz="0 0 0"
       rpy="0 0 0" />
@@ -494,7 +500,7 @@
     name="F_W_Back_Left">
     <inertial>
       <origin
-        xyz="-0.19 0.1215 -1.622E-14"
+        xyz="-0.19 0.1215 0.03"
         rpy="0 0 0" />
       <mass
         value="0.059636" />
@@ -532,7 +538,7 @@
   </link>
   <joint
     name="F_W_Back_Left_Joint"
-    type="continuous">
+    type="fixed">
     <origin
       xyz="0 0 0"
       rpy="0 0 0" />
@@ -547,7 +553,7 @@
     name="F_W_Back_Right">
     <inertial>
       <origin
-        xyz="-0.19 -0.1215 -1.6079E-14"
+        xyz="-0.19 -0.1215 0.03"
         rpy="0 0 0" />
       <mass
         value="0.059636" />
@@ -585,7 +591,7 @@
   </link>
   <joint
     name="F_W_Back_Right_Joint"
-    type="continuous">
+    type="fixed">
     <origin
       xyz="0 0 0"
       rpy="0 0 0" />
