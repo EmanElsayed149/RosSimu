@@ -37,8 +37,6 @@ roslaunch waiteronix_gazebo gazebo.launch
 
 >Note : there is a large block (cube) added on the end of the robot to make robot more balanced
 
-> Note : if you want to add your customized environment , follow these steps :
-
 - add your world into "waiteronix_gazebo/worlds
 - edit line 13 in "waiteronix_description/launch/gazebo.launch" to add your desired world_name
 
