@@ -1,9 +1,11 @@
 # Waiteronix_description
-
-This package contian description of waiteronix robot. 
+This package contians the description of waiteronix robot. 
 
 # waiteronix_gazebo
-this packege contain simulation of waiteronix robot .
+this packege contains the simulation of waiteronix robot .
+
+# waiteronix_navigation
+this packege contains the navigation of waiteronix robot .
 ## Dependencies
 
 * Ununtu 20.04
@@ -34,8 +36,6 @@ roslaunch waiteronix_gazebo gazebo.launch
 ```
 
 >Note : there is a large block (cube) added on the end of the robot to make robot more balanced
-
-> Note : if you want to add your customized environment , follow these steps :
 
 - add your world into "waiteronix_gazebo/worlds
 - edit line 13 in "waiteronix_description/launch/gazebo.launch" to add your desired world_name
