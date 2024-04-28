@@ -28,8 +28,10 @@ source devel/setup.bash
 ## Run
 
 ```bash
-roslaunch PKG_NAME FILE.LAUNCH
+roslaunch PKG_NAME gazebo.launch
+then rosrun rviz rviz
 ```
 
->Note: keep in mind that WheelSperatation = "0.0"
+>Note: when we add the cafe environment the robot doesnt fall
+>It walks but not in a stable way especially when walking forward
 
